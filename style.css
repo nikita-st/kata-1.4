@@ -71,6 +71,8 @@ label[for]:hover {
     border: none;
     transform: scale(1);
     transition-duration: 0.3s;
+    width: 40px;
+    height: 40px;
 }
 
 button {
@@ -85,16 +87,12 @@ ul {
     margin-left: 24px;
 
 }
-.sidebar-header, .sidebar-header__logos {
+.sidebar-header {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     width: 320px;
     height: 116px;
-}
-
-.sidebar-header {
-    margin-top: -12px;
 }
 
 .sidebar {
@@ -120,13 +118,21 @@ a {
 }
 
 .sidebar-header__logos {
-    width: 80px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 150px;
+    align-items: center;
+    margin-left: 24px;
 }
+
 .sidebar-header__navigation {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     width:320px;
+    align-items: center;
+
 }
 
 nav {
