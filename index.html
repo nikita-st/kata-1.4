@@ -10,8 +10,8 @@
 <body>
     <aside class="sidebar">
         <div class="sidebar__content">
-            <div class="sidebar-header">
-                <nav class="sidebar-header__navigation">
+            <header class="sidebar-header">
+                <div class="sidebar-header__navigation">
                     <div class="sidebar-header__logos">
                         <button class="sidebar-header__icon icon">
                             <img src="images/close.svg" alt="close">
@@ -23,8 +23,8 @@
                     <button class="sidebar-header__search icon">
                         <img src="images/search.svg" alt="search">
                     </button>
-                </nav>
-            </div>
+                </div>
+            </header>
             <nav class="sidebar-navigation">
                 <ul class="sidebar-navigation__menu">
                     <li class="sidebar-navigation__item">
@@ -53,7 +53,7 @@
                     </li>
                 </ul>
             </nav>
-            <div class="sidebar-footer">
+            <footer class="sidebar-footer">
                 <ul class="sidebar-footer__options">
                     <li class="sidebar-footer__icon">
                         <button class="sidebar-footer__button icon">
@@ -78,18 +78,18 @@
                 <ul class="sidebar-footer__lang">
                     <li class="sidebar-footer__lang-ru">
                         <label for="ru" class="localization__description">RU</label>
-                        <input type="radio" name="lang" id="ru" value="ru" class="lang-button">
+                        <button id="ru" class="lang-button"></button>
                     </li>
                     <li class="sidebar-footer__lang-en">
                         <label for="en" class="localization__description">EN</label>
-                        <input type="radio" name="lang" id="en" value="en" class="lang-button">
+                        <button id="en" class="lang-button"></button>
                     </li>
                     <li class="sidebar-footer__lang-ch">
                         <label for="ch" class="localization__description">CH</label>
-                        <input type="radio" name="lang" id="ch" value="ch" class="lang-button">
+                        <button id="en" class="lang-button"></button>
                     </li>
                 </ul>
-            </div>
+            </footer>
         </div>
     </aside>
 </body>

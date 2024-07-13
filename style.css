@@ -80,7 +80,9 @@ button {
     border: none;
 }
 
-ul {
+.sidebar-footer__lang, 
+.sidebar-footer__options, 
+.sidebar-navigation__menu{
     list-style: none;
     align-items: center;
     gap: 16px;
